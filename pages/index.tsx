@@ -1,21 +1,15 @@
 export default function Home() {
   return (
     <div>
-      <h1 className="text-green-600">
-        Hello world!
-      </h1>
-      <h1 className="text-yellow-400">
-        Hello world!
-      </h1>
-      <h1 className="text-vuejs-932">
-        Hello world!
-      </h1>
-      <h1 className="text-xs sm:text-base sm:mt-1 md:text-lg md:mt-2 lg:text-3xl lg:mt-3">
-        Hello world!
-      </h1>
-      <h1 className="bg-[#bada55]">
-        Hello world!
-      </h1>
+      <h1 className="text-3xl italic ">Title 1</h1>
+      <h2 className="text-2xl">Title 2</h2>
+      <h3 className="text-xl">Title 3</h3>
+      <p className="text-base underline underline-offset-4 decoration-green-600 decoration-1 decoration-wavy">A regular paragraph</p>
+      <p className="text-sm">A description paragraph</p>
+      <p className="note text-xs">A little note</p>
+      <div style= {{ width: '200px'}}>
+        <p className="truncate">This is a long sentence with a lot of words to explain that truncate will truncate my sentence</p>
+      </div>
     </div>
   )
 }
